@@ -1,0 +1,14 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "Тесты для login.qa.studio",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:login": "cypress run --spec \"cypress/e2e/login.qa.studio.cy.js\"",
+    "test:login:open": "cypress open --e2e --spec \"cypress/e2e/login.qa.studio.cy.js\""
+  },
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
